@@ -19,3 +19,5 @@ node_modules
 # System files
 .DS_Store
 Thumbs.db
+yarn.lock
+third_party/

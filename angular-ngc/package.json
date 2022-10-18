@@ -30,6 +30,14 @@
     "karma-coverage": "2.2.0",
     "karma-jasmine": "5.1.0",
     "karma-jasmine-html-reporter": "1.7.0",
-    "typescript": "4.7.4"
+    "typescript": "4.7.4",
+    "@bazel/bazelisk": "1.12.1",
+    "@bazel/ibazel": "0.16.2"
+  },
+  "scripts": {
+    "build": "bazel build //applications/demo:prod",
+    "start": "ibazel run //applications/demo:serve",
+    "bazel": "./node_modules/.bin/bazel"
+
   }
 }

@@ -1,0 +1,2 @@
+USE_BAZEL_VERSION=5.3.1
+BAZELISK_HOME=third_party/bazelisk
